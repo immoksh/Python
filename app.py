@@ -92,5 +92,27 @@
 # You can't change value of tuple and it's notify by round bracket (). We use tuple when data not gonna be change.
 
 # coordinates = (4, 5)
-coordinates = [(4, 5), (6, 7), (58, 76), (90, 45)]
-print(coordinates[1])
+# coordinates = [(4, 5), (6, 7), (58, 76), (90, 45)]
+# print(coordinates[1])
+
+
+#Functions
+
+# def sayhi(name, age):
+#     print("Hello " + name + ", you are " + str(age))
+#
+# sayhi("Mahi", 26)
+# sayhi("Moksh", 27)
+
+
+#Return Statement
+
+# def cube(num):
+#     return num*num*num
+#
+# result = cube(5)
+# print(result)
+
+
+#If statement
+
