@@ -52,7 +52,7 @@
 # friends = ["Parag", "Nishad", "Nilesh"]
 
 
-#Lists
+# Lists
 # friends = ["Pari","Nilyo","Ishudi","Ghugal","Bhau"]
 # friends[4] = "Niha"
 # print(friends[-1])
@@ -61,7 +61,7 @@
 # print(friends[2:4])
 
 
-#Lists function
+# Lists function
 
 # lucky_numbers = [42,8,14,21,41,50]
 # friends = ["Pari","Nilyo","Nilyo","Ishudi","Ghugal","Bhau"]
@@ -81,7 +81,7 @@
 # print(friends.count("Nilyo"))
 
 
-#Tuples
+# Tuples
 
 # You can't change value of tuple and it's notify by round bracket (). We use tuple when data not gonna be change.
 
@@ -90,7 +90,7 @@
 # print(coordinates[1])
 
 
-#Functions
+# Functions
 
 # def sayhi(name, age):
 #     print("Hello " + name + ", you are " + str(age))
@@ -99,7 +99,7 @@
 # sayhi("Moksh", 27)
 
 
-#Return Statement
+# Return Statement
 
 # def cube(num):
 #     return num*num*num
@@ -108,7 +108,7 @@
 # print(result)
 
 
-#If statement
+# If statement
 
 # is_male = True
 # is_tall = False
@@ -132,7 +132,6 @@
 #     print("You are not a male and not tall")
 
 
-
 # If statements & comparisons
 
 # def max_num(num1, num2, num3):
@@ -146,5 +145,148 @@
 # print(max_num(580, 51, 78))
 
 
-#Building a better calculator
+# Building a better calculator
 
+# num1 = float(input("Enter first number: "))
+# op = input("Enter operator: ")
+# num2 = float(input("Enter second number: "))
+#
+# if op == "+":
+#     print(num1 + num2)
+# elif op == "-":
+#     print(num1 - num2)
+# elif op == "/":
+#     print(num1 / num2)
+# elif op == "*":
+#     print(num1 * num2)
+# else:
+#     print("Invalid operator")
+
+
+# Dictionary
+
+# monthConversion = {
+#     "Jan": "January",
+#     "Feb": "February",
+#     "Mar": "March",
+#     "Apr": "April",
+#     "May": "May",
+#     "Jun": "June",
+#     "Jul": "July",
+#     "Aug": "August",
+#     "Sep": "September",
+#     "Oct": "October",
+#     "Nov": "November",
+#     "Dec": "December"
+# }
+#
+# print(monthConversion["Feb"])
+# print(monthConversion.get("asd", "Not a valid key"))
+
+
+# While loop
+
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i += 1
+#
+# print("Done with loop")
+
+
+# Building a guessing game
+
+# secret_word = "giraffe"
+# guess = ""
+# guess_count = 0
+# guess_limit = 3
+# out_of_guesses = False
+# print("The word is belongs to name of animal")
+# while guess != secret_word and not(out_of_guesses):
+#     if guess_count < guess_limit:
+#         guess = input("Enter guess: ")
+#         guess_count += 1
+#     else:
+#         out_of_guesses = True
+# if out_of_guesses:
+#     print("Out of Guesses, YOU LOSE!")
+# else:
+#     print("You win!")
+
+
+# For loop
+
+# for letter in "Setu Modi":
+#     print(letter)
+
+# friends = ["Pari", "Nilyo", "Shani"]
+# for friend in friends:
+#     print(friend)
+# for index in range(len(friends)):
+#     print(friends[index])
+
+# for index in range(5, 13):
+#     print(index)
+
+# for index in range(5):
+#     if index == 0:
+#         print("First Iteration")
+#     else:
+#         print("Not first")
+
+
+# Exponent function
+
+# print(3**4)
+# def raise_to_power(base_num, pow_num):
+#     result = 1
+#     for index in range(pow_num):
+#         result = result * base_num
+#     return result
+#
+# print(raise_to_power(4, 3))
+
+
+# 2D lists & nested loops
+
+# number_grid = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9],
+#     [0]
+# ]
+
+# print(number_grid[2][0])
+
+# for row in number_grid:
+#     for col in row:
+#         print(col)
+
+
+# Build a translator
+
+# def translate(phrase):
+#     translation = ""
+#     for letter in phrase:
+#         if letter.lower() in "aeiou":
+#             if letter.isupper():
+#                 translation = translation + "S"
+#             else:
+#                 translation = translation + "s"
+#         else:
+#             translation = translation + letter
+#     return translation
+#
+#
+# print(translate(input("Enter a phrase: ")))
+
+
+# Comments
+
+# '''
+# It's also a comment
+# which will not give error
+# '''
+
+# This prints out a string
+# print("Comments are fun")
