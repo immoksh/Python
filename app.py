@@ -290,3 +290,57 @@
 
 # This prints out a string
 # print("Comments are fun")
+
+
+# Try / Except
+
+# try:
+#     value = 10/0
+#     number = int(input("Enter a number: "))
+#     print(number)
+# except ZeroDivisionError as err:
+#     print(err)
+# except ValueError:
+#     print("Invalid input")
+
+
+# Reading files
+
+# employee_file = open("employees.txt", "r")
+
+# print(employee_file.readable())  # give response in true - false,
+# print(employee_file.read())  # read whole file
+# print(employee_file.readline())  # read line
+# print(employee_file.readlines())  # read lines
+# print(employee_file.readlines())  # read lines
+
+# for employee in employee_file.readlines():
+#     print(employee)
+
+# employee_file.close()
+
+
+# Writing to files
+
+# append data from last line when mode is "a"
+# but if we use "w" mode then it will remove old data and write from 1st line
+
+# employee_file = open("employees.txt", "a")
+#
+# employee_file.write("\nShraddha - hr")
+#
+# employee_file.close()
+
+
+# employee_file = open("index.html", "w")
+#
+# employee_file.write("<p>This is HTML</p>")
+#
+# employee_file.close()
+
+
+# Modules and pip
+
+import useful_stuff
+
+print(useful_stuff.roll_dice(10))
